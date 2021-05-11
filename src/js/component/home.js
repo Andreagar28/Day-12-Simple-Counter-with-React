@@ -5,10 +5,10 @@ import NumberCard from "./numbercard.jsx";
 export function Home() {
 	return (
 		<div className="text-center mt-5">
-			<NumberCard time={0} />
-			<NumberCard time={0} />
-			<NumberCard time={0} />
-			<NumberCard time={0} />
+			<NumberCard time={1000} />
+			<NumberCard time={100} />
+			<NumberCard time={10} />
+			<NumberCard time={1} />
 		</div>
 	);
 }
